@@ -1,39 +1,73 @@
 .flightsPage {
-    background-color: rgb(230, 221, 252);
-    padding-top:50px;
-    padding-bottom: 50px;
-    margin: 0; /* Varsayılan marginleri kaldır */
-    display: flex;
-    justify-content: center; /* Yatayda ortala */
-    align-items: center; /* Dikeyde ortala */
-  }
-  
-  
+  background-color: rgb(230, 221, 252);
+  padding-top:50px;
+  padding-bottom: 50px;
+  margin: 0; /* Varsayılan marginleri kaldır */
+  display: flex;
+  justify-content: center; /* Yatayda ortala */
+  align-items: center; /* Dikeyde ortala */
+}
+
+
+
+.flightsPageContainer {
+  flex-direction: column;
  
-  .flightsContainer {
-    flex-direction: column;
-   
-    background-color: rgb(246, 244, 248); /* Çerçevenin rengi */
-    border: 1px solid black; /* Çerçevenin kenarlığı */
-    
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
-    width: 90%; /* Çerçevenin genişliği */
-    max-width: 100%; /* Maksimum genişlik */
-    justify-content: space-between;
-    border-radius: 10px;
-    height:80%;
-    max-height: 100%;
-    text-align:left;
-    
-    
-}
-.header {
-    padding:20px;
-    border-radius: 10px;
-    background-color: white;
-}
-
-
+  background-color: rgb(246, 244, 248); /* Çerçevenin rengi */
+  border: 1px solid black; /* Çerçevenin kenarlığı */
   
-
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+  width: 90%; /* Çerçevenin genişliği */
+  max-width: 100%; /* Maksimum genişlik */
+  justify-content: space-between;
+  border-radius: 10px;
+  height:80%;
+  max-height: 100%;
+  text-align:left;
   
+  
+}
+.headerFlights {
+  padding:20px;
+  display: flex;
+  border-radius: 10px;
+  background-color: white;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.headerLeftFlights{
+display: flex;
+  align-items: center;
+}
+.headerMidFlights{
+display: flex;
+  align-items: center;
+}
+.rightHeaderFlights {
+display: flex; /* İçeriği yatayda hizalar */
+justify-content:flex-end; /* İçeriği sağ tarafa hizalar */
+margin-right: 100;
+align-items: center;
+}
+.buttonHeader{
+  margin-right:20px;
+}
+.planeIcon {
+width: 25px;
+margin-right: 8px;
+transform: rotate(90deg);
+border-radius: 50%;
+
+}
+.headerText {
+  
+color: #4a4a4a;
+}
+
+.headerText {
+font-weight: bold;
+font-family:'Times New Roman', Times, serif;
+}
+
+
+

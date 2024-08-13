@@ -30,7 +30,7 @@
       border: 1px solid black; /* Çerçevenin kenarlığı */
       padding: 20px; /* İçerik ile çerçeve arasındaki boşluk */
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
-      width: 90%; /* Çerçevenin genişliği */
+      width: 70%; /* Çerçevenin genişliği */
       max-width: 100%; /* Maksimum genişlik */
       justify-content: space-between;
       border-radius: 20px;

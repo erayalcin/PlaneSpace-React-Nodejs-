@@ -50,14 +50,14 @@ function Flights() {
     return (
 
         <div className="flightsPage" >
-            <div className='flightsContainer'>
-                <div className='header'>
-                    <div className='leftHeader'>
-                        <img src={planeIcon} className='planeIcon' alt='plane icon'></img>
-                        <b className='headerText'>PLANE SCAPE</b>
+            <div className='flightsPageContainer'>
+                <div className='headerFlights'>
+                    <div className='headerLeftFlights'>
+                    <img src={planeIcon} className='planeIcon' alt='plane icon'></img>
+                    <b className='headerText'>PLANE SCAPE</b>
                     </div>
-                    <div className='midHeader'>
-                        <Button className='buttonHeader'>Times</Button>
+                    <div className='headerMidFlights'>
+                    <Button className='buttonHeader'>Times</Button>
                         <Button className='buttonHeader'>Stops</Button>
                         <Button className='buttonHeader'>Airlines</Button>
                         <Button className='buttonHeader'>Airports</Button>
@@ -76,13 +76,9 @@ function Flights() {
                             </a>
                         </Dropdown>
                     </div>
-                    <div className='rightHeader'>
-                        <img src={dealIcon} className='rightIcon' alt='deal icon'></img>
-                        <span className='rightText'>Deals</span>
-                        <img src={discoverIcon} className='rightIcon' alt='discover icon'></img>
-                        <span className='rightText'>Discover</span>
-                        <img src={profileIcon} className='rightIcon' alt='profile icon'></img>
-                        <span className='rightText'>Eray Alçin</span>
+                    <div className='rightHeaderFlights'>
+                    <img src={dealIcon} className='rightIcon' alt='deal icon'></img>
+                        
                     </div>
                 </div>
             </div>
