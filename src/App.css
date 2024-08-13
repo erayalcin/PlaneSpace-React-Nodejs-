@@ -1,0 +1,241 @@
+.App {
+  background-color: rgb(230, 221, 252);
+  padding-top:50px;
+  padding-bottom: 50px;
+  margin: 0; /* Varsayılan marginleri kaldır */
+  display: flex;
+  justify-content: center; /* Yatayda ortala */
+  align-items: center; /* Dikeyde ortala */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.content {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.container {
+  
+    background-color: rgb(246, 244, 248); /* Çerçevenin rengi */
+    border: 1px solid black; /* Çerçevenin kenarlığı */
+    padding: 20px; /* İçerik ile çerçeve arasındaki boşluk */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+    width: 90%; /* Çerçevenin genişliği */
+    max-width: 100%; /* Maksimum genişlik */
+    justify-content: space-between;
+    border-radius: 20px;
+    height:80%;
+    max-height: 100%;
+    text-align:left;
+    
+}
+.ant-select-selector {
+  
+  
+  border: none !important; /* Kenarlığı kaldırır */
+  box-shadow: none !important; /* Kenar gölgesini kaldırır */
+  border-radius: 15px !important; /* Köşe yuvarlaklıklarını ayarlayın */
+}
+.ant-picker {
+  
+  border: none !important; /* Kenarlığı kaldırır */
+  box-shadow: none !important; /* Kenar gölgesini kaldırır */
+  border-radius: 15px !important; /* Köşe yuvarlaklıklarını ayarlayın */
+}
+
+.inputContainer {
+  display: flex;
+  
+  margin-top:20px;
+  
+  
+}
+.searchContainer {
+  
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255); /* Çerçevenin rengi */
+    border: 1px solid black; /* Çerçevenin kenarlığı */
+    padding: 15px; /* İçerik ile çerçeve arasındaki boşluk */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+    
+    max-width: 100%; /* Maksimum genişlik */
+     
+    border-radius: 15px;
+    height:16%;
+    text-align:left;
+}
+.ant-checkbox-wrapper {
+  border-radius: 8px;
+}
+
+.ant-checkbox-wrapper .ant-checkbox-inner {
+  border-radius: 8px;
+
+}
+
+.ant-checkbox-wrapper .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #8e2de2 !important; /* Mor renk */
+  border-color: #8e2de2 !important;
+}
+
+.ant-checkbox-wrapper .ant-checkbox-checked::after {
+  content: none !important; /* Ok işaretini kaldır */
+}
+
+
+/* Hover ve focus durumunda seçili olan checkbox'ı mavi olmaktan alıkoyuyoruz */
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox-wrapper:focus .ant-checkbox-inner,
+.ant-checkbox-wrapper.ant-checkbox-wrapper-checked:hover .ant-checkbox-inner,
+.ant-checkbox-wrapper.ant-checkbox-wrapper-checked:focus .ant-checkbox-inner {
+  background-color: #8e2de2 !important; /* Hover rengi */
+  border-color: #8e2de2 !important; /* Hover sınır rengi */
+  
+}
+
+.secondContainer {
+  
+  margin-top: 20px;
+  margin-left:20px;
+ justify-content: space-between;
+    width: 25%; /* Çerçevenin genişliği */
+    max-width: 100%; /* Maksimum genişlik */
+    
+    
+    height:100%;
+    text-align:left;
+}
+.flightsContainer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  display: flex;
+  
+  
+  border-radius: 15px;
+  justify-content: space-between;
+}
+.flightsDetails{
+  display: flex;
+  flex:1;
+  justify-content: space-between;
+}
+.flightsDetailsBooking
+{
+  display: flex;
+  flex-direction:row ;
+  margin:0;
+  padding:0;
+  justify-content: space-between;
+  margin-top:20px ;
+}
+.flightsContainer1{
+
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.flightsContainer2{
+  
+  flex-direction: column;
+  
+  width: 25%;
+  
+  
+  border-radius: 15px;
+}
+.topContent{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.headerText {
+  
+  color: #4a4a4a;
+}
+
+.headerText {
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+}
+.planeIcon {
+  width: 25px;
+  margin-right: 8px;
+  transform: rotate(90deg);
+  border-radius: 50%;
+  
+}
+.rightIcon {
+  width: 20px;
+  margin-right: 5px;
+  margin-left: 25px;
+  
+}
+.header {
+ display: flex;
+
+ justify-content: space-between; /* Sol ve sağ header öğelerini ayırır */
+    align-items: center; /* Öğeleri dikeyde ortalar */
+}
+.search{
+  display: flex;
+ justify-content: space-between; /* Sol ve sağ header öğelerini ayırır */
+    align-items: center; /* Öğeleri dikeyde ortalar */
+}
+.leftHeader {
+  display: flex;
+  align-items: center;
+}
+.test .MuiToggleButton-root{
+  border-radius: 30px; /* Köşe yuvarlatma */
+  height: 40px;
+  width:120px;
+  background-color:rgb(229, 224, 234);
+  color:rgb(67, 7, 144);
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+  font-size: 12px;
+
+}
+.test .Mui-selected {
+  background-color: rgb(67, 7, 144) !important;
+  color: white !important; /* Beyaz yazı rengi */
+}
+.leftSearch {
+  display: flex;
+  align-items: center;
+}
+.rightText {
+  
+  font-size: 18px;
+  font-weight:normal;
+  font-family:'Verdana, Geneva, Tahoma, sans-serif';
+}
+ 
+.rightHeader {
+  display: flex; /* İçeriği yatayda hizalar */
+    justify-content:flex-end; /* İçeriği sağ tarafa hizalar */
+   margin-right: 100;
+    align-items: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
