@@ -66,12 +66,12 @@
     background-color: rgb(255, 255, 255); /* Çerçevenin rengi */
       border: 1px solid black; /* Çerçevenin kenarlığı */
       padding: 15px; /* İçerik ile çerçeve arasındaki boşluk */
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+  
       
       max-width: 100%; /* Maksimum genişlik */
        
-      border-radius: 15px;
-      height:16%;
+      border-radius: 16px;
+      
       text-align:left;
   }
   .ant-checkbox-wrapper {

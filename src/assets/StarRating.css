@@ -1,0 +1,23 @@
+/* StarRating.css */
+.star-rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .stars-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .star {
+    font-size: 1rem; /* Yıldız boyutunu ayarlayın */
+    cursor: pointer;
+    transition: color 0.2s;
+    color: lightgray; /* Seçili olmayan yıldızın rengi */
+  }
+  
+  .star.filled {
+    color: rgb(54, 53, 53); /* Seçili yıldızın rengi */
+  }
+  
