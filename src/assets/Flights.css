@@ -15,8 +15,6 @@
   flex-direction: column;
  
   background-color: rgb(246, 244, 248); /* Çerçevenin rengi */
-  border: 1px solid black; /* Çerçevenin kenarlığı */
-  
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
   width: 90%; /* Çerçevenin genişliği */
   max-width: 100%; /* Maksimum genişlik */
