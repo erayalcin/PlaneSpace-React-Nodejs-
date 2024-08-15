@@ -5,13 +5,14 @@ import airplanePurple from '../images/airplane_flights.png';
 import arrivalGray from '../images/arrivalGray.png';
 import { Button, Modal,notification } from 'antd';
 import '../assets/Home.css';
-import Test from '../pages/test';
+
 import { useNavigate } from 'react-router-dom';
   
 
   
 // Bileşeninizi fonksiyonel bir bileşen olarak tanımlayın
 const FlightDetails = ({
+ 
     departureName,
     arrivalName,
     departureDate,
@@ -80,6 +81,7 @@ const FlightDetails = ({
     });
 
     const data = await response.json();
+    console.log(data);
     openNotification();
   };
   const [isModalOpen, setIsModalOpen] = useState(false);

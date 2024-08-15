@@ -474,7 +474,7 @@ useEffect(() => {
              {flightsData.map((flight) => (
                 
                 <FlightDetails
-                  key={flight.id}
+                key={flight.id}
                   departureName={departureName}
                   arrivalName={arrivalName}
                   departureDate={departureDate}
