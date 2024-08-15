@@ -27,7 +27,7 @@
   .container {
     
       background-color: rgb(246, 244, 248); /* Çerçevenin rengi */
-      border: 1px solid black; /* Çerçevenin kenarlığı */
+     
       padding: 20px; /* İçerik ile çerçeve arasındaki boşluk */
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
       width: 70%; /* Çerçevenin genişliği */
